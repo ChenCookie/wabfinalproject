@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-attachment: fixed;
+    background: white;
+    height: 100%;
+}
+
+#scene {
+    display: block;
+    height: 590px;
+    margin: 10px auto;
+    position: relative;
+    width: 600px;
+	z-index:2;
+	top:50px;
+}

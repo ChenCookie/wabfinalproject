@@ -1,0 +1,399 @@
+.button_wrapper{
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:#008CBA;
+  width:100%;
+  height:70px;
+  z-index:100;
+}
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 0 32px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    /* height: 50px; */
+    font-family: "微軟正黑體";
+    outline: none;
+	vertical-align: top;
+	position: relative;
+    left: 30px;
+}
+body{
+	margin:0;
+	padding:0;
+	
+}
+iframe{
+  position:relative;
+  top:80px;
+  left:50px;
+  width:38%;
+  height:300px;
+  z-index:2;
+}
+.section{
+  width:100%;
+  height:100vh;
+}
+.loogofix{
+  height:80px;
+  position: relative;
+  left: 20px;
+}
+.toplogo{
+	position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    top: 70px;
+	animation:animated_div 5s 1;
+}
+.blog{
+	position: absolute;
+    height: 400px;
+    top: 110px;
+    left: 400px
+}
+.yes{
+	z-index: 2;
+    height: 100px;
+    position: absolute;
+    top: 525px;
+    left: 450px;
+}
+.no{
+    z-index: 2;
+    height: 100px;
+    position: absolute;
+    left: 730px;
+    top: 525px;
+}
+.getans{
+	position: relative;
+	font-family: "微軟正黑體";
+	font-size: 30px;
+    left: 550px;
+    top: 425px;
+}
+#ques{
+	font-family: "微軟正黑體";
+	font-size: 30px;
+}
+.why{
+	font-size: 30px;
+    font-family: "微軟正黑體";
+    color: #4A4A4A;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    margin: 20px;
+}
+.toptopic{
+	font-size: 40px;
+    font-family: "微軟正黑體";
+    color: #4A4A4A;
+    position: absolute;
+    top: 330px;
+    left: 600px;
+    margin: 20px;
+}
+#主頁{
+  background: #4dd2ff;
+}
+
+#相關網站{
+  background: white;
+}
+
+#數據顯示{
+  background: #4dd2ff;
+}
+
+#兒童遊戲區{
+  background: white;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 30px;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top.show {
+    opacity: 0.7;
+}
+#back-to-top:hover {
+    opacity: 1;
+}
+
+#nourth {
+	display: none;
+}
+#middle {
+	display: none;
+}
+#south {
+	display: none;
+	}
+#west {
+	display: none;
+}
+#out {
+	display: none;
+}
+table {
+    font-size: 100%;
+    font-family:"微軟正黑體";
+    border-collapse: collapse;
+    width: 25%;
+    position:absolute;
+    top:200px;
+    left:50px;
+	z-index:2;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+}
+            tr:nth-child(odd) {
+                background-color: #ff9933;
+            }
+			tr:nth-child(even) {
+                background-color: white;
+            }
+			.land
+			{
+				fill: #ffffb3;
+				fill-opacity: 1;
+				stroke:#4dd2ff;
+				stroke-opacity: 1;
+				stroke-width:0.5;
+			}
+          .land:hover{
+            fill: 0000ff;
+          }
+          .pick:hover{
+              background-color: #0080ff;
+			  color: white;
+          }
+		  .donotpick:hover{
+              background-color: #0080ff;
+			  color: white;
+          }
+.map_button{
+	transform: scale(0.3); 
+	position:absolute;
+	z-index:2;
+}
+.bubble {
+  background: url(bubble.png) no-repeat;
+  z-index: 1;
+  position: fixed;
+}
+.bubble.bubble141 {
+  width: 9vw;
+  height: 9vw;
+  background-size: 9vw 9vw;
+}
+.bubble.bubble40 {
+  width: 3vw;
+  height: 3vw;
+  background-size: 3vw 3vw;
+}
+.bubble.bubble52 {
+  width: 3.6vw;
+  height: 3.6vw;
+  background-size: 3.6vw 3.6vw;
+}
+.bubble.bubble215 {
+  width: 14.9vw;
+  height: 14.9vw;
+  background-size: auto 14.9vw;
+}
+.bubble.bubble161 {
+  width: 11.1vw;
+  height: 11.1vw;
+  background-size: 11.1vw 11.1vw;
+}
+.bubble.bubble82 {
+  width: 5.6vw;
+  height: 5.6vw;
+  background-size: 5.6vw 5.6vw;
+  animation: scale 3s infinite ease-in-out;
+}
+.bubble.bubble21 {
+  width: 1.4vw;
+  height: 1.4vw;
+  background-size: 1.4vw 1.4vw;
+}
+.bubble.bubble308 {
+  width: 21.3vw;
+  height: 21.3vw;
+  background-size: 21.3vw 21.3vw;
+}
+
+.bubble.b01 {
+  top: 0;
+  left: -60px;
+  /*background: url(../../asset/b01.png) no-repeat;*/
+  background-size: auto 9vw;
+}
+@media screen and (max-width: 375px) {
+  .bubble.b01 {
+    display: none;
+  }
+}
+.bubble.b02 {
+  top: 70px;
+  left: 29vw;
+  animation-delay: 1s;
+}
+.bubble.b03 {
+  top: 70px;
+  right: 17.7vw;
+  animation-delay: 0.7s;
+}
+.bubble.b04 {
+  top: 112px;
+  /*right: 0;
+  background: url(../../asset/b04.png) no-repeat;*/
+  right: -50px;
+  background-size: auto 14.9vw;
+  background-position: right;
+  animation-delay: 0s;
+}
+.bubble.b05 {
+  top: 354px;
+  left: -6.3vw;
+}
+.bubble.b06 {
+  top: 376px;
+  left: 15vw;
+}
+.bubble.b07 {
+  top: 377px;
+  left: 39.2vw;
+}
+.bubble.b08 {
+  top: 335px;
+  left: 170.8vw;
+}
+.bubble.b09 {
+  top: 795px;
+  left: 1.8vw;
+  bottom: 62px;
+  top: initial;
+}
+.bubble.b10 {
+  top: 720px;
+  left: 12.4vw;
+  top: initial;
+  bottom: -126px;
+}
+.bubble.b11 {
+  top: 773px;
+  left: 64.8vw;
+  
+  top: initial;
+  bottom: -2px;
+}
+.bubble.b12 {
+  top: 700px;
+  left: 93.4vw;
+
+  top: initial;
+  bottom: 155px;
+  animation-delay: 0.5s;
+}
+
+.bubble_animation1{
+  animation: bubble_animation1 3s ease-in-out 2s infinite alternate;
+}
+
+.bubble_animation2{
+  animation: bubble_animation2 2.5s ease-in-out 2s infinite alternate;
+}
+
+.bubble_animation3{
+  animation: bubble_animation3 2s ease-in-out 0s infinite alternate;  
+}
+
+.bubble_animation4{
+  animation: bubble_animation4 4s ease-in-out 0s infinite alternate;
+}
+
+@keyframes bubble_animation1{
+  from {
+    transform: translate(0, 0px) scale(1);
+  }
+  50% {
+    transform: translate(0, 10px) scale(0.9);
+  }
+  to {
+    transform: translate(0, 0px) scale(1);
+  }
+}
+
+@keyframes bubble_animation2{
+  from {
+    transform: translate(0, 0px) scale(1) rotate(-165deg);
+  }
+  50%{
+    transform: translate(0, 10px) scale(0.8) rotate(-165deg);
+  }
+  to {
+    transform: translate(0, 20px) scale(0.7) rotate(-165deg);
+  }
+}
+
+@keyframes bubble_animation3{
+  from {
+    transform: translate(0, 0px) scale(1) rotate(-291deg);
+  }
+  50%{
+    transform: translate(0, 10px) scale(0.8) rotate(-291deg);
+  }
+  to {
+    transform: translate(0, 5px) scale(0.9) rotate(-291deg);
+  }
+}
+
+@keyframes bubble_animation4{
+  from {
+    transform: translate(0, 0px) scale(1);
+  }
+  50%{
+    transform: translate(0, 19px) scale(0.8);
+  }
+  to {
+    transform: translate(0, 15px) scale(0.9);
+  }
+}
+@keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50% {transform: rotate(0deg);left:500px;}
+55% {transform: rotate(0deg);left:500px;}
+70% {transform: rotate(0deg);left:500px;}
+100% {transform: rotate(-360deg);left:0px;}
+}
